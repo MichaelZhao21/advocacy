@@ -17,16 +17,16 @@ class Home extends React.Component {
                 <div className="container">
                     <Quote />
                     <div className="spacer"></div>
-                    <Link className="section-button" to="/help">How to Help</Link>
-                    <Link className="section-button" to="/current-events">Current Events</Link>
-                    <Link className="section-button" to="/george-floyd-protests">George Floyd & Protests</Link>
-                    <Link className="section-button" to="/black-rights">Black Rights</Link>
-                    <Link className="section-button" to="/police-brutality">Police Brutality</Link>
-                    <Link className="section-button" to="/online-protests">Online Protests and COVID-19</Link>
-                    <Link className="section-button" to="/white-privilege">White Privilege</Link>
-                    <Link className="section-button" to="/media">Social and Commercial Media</Link>
-                    <Link className="section-button" to="/pride">Pride and Pridefall</Link>
-                    <Link className="section-button" to="/external-resources">External Resources</Link>
+                    <Link className="section-button" to="/advocacy/help">How to Help</Link>
+                    <Link className="section-button" to="/advocacy/current-events">Current Events</Link>
+                    <Link className="section-button" to="/advocacy/george-floyd-protests">George Floyd & Protests</Link>
+                    <Link className="section-button" to="/advocacy/black-rights">Black Rights</Link>
+                    <Link className="section-button" to="/advocacy/police-brutality">Police Brutality</Link>
+                    <Link className="section-button" to="/advocacy/online-protests">Online Protests and COVID-19</Link>
+                    <Link className="section-button" to="/advocacy/white-privilege">White Privilege</Link>
+                    <Link className="section-button" to="/advocacy/media">Social and Commercial Media</Link>
+                    <Link className="section-button" to="/advocacy/pride">Pride and Pridefall</Link>
+                    <Link className="section-button" to="/advocacy/external-resources">External Resources</Link>
                     <h2>About</h2>
                     <p className="p">{text.about[0]}</p>
                     <p className="p">{text.about[1]}</p>
