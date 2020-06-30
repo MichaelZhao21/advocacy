@@ -61,7 +61,7 @@ const AdvocacyApp = ({ match }) => {
   return (
     <div className="advocacy-app">
       <ScrollToTop />
-      <Link className="home-button" to="/">Back to Home</Link>
+      <Link className="home-button" to="/advocacy">Back to Home</Link>
       <div className="app">
         {inner}
       </div>
