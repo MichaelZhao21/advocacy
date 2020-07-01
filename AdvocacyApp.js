@@ -15,7 +15,7 @@ import External from './pages/External';
 import CurrentEvents from './pages/CurrentEvents';
 import GeorgeProtests from './pages/GeorgeProtests';
 
-const AdvocacyApp = ({ match }) => {
+const AdvocacyApp = () => {
   console.log(match);
   var inner = <Home />;
 
@@ -53,8 +53,6 @@ const AdvocacyApp = ({ match }) => {
       case "external-resources":
         inner = <External />;
         break;
-      default:
-        inner = <p>ERROR: INVALID PAGE</p>;
     }
   }
 
