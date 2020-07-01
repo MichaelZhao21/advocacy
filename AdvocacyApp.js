@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 
-import { ScrollToTop, ChangeIcon } from '../Util';
-import icon from './files/favicon.ico';
+import ScrollToTop from './pages/ScrollToTop';
 import Home from './pages/Home';
 import Help from './pages/Help';
 import BlackRights from './pages/BlackRights';
@@ -17,9 +16,13 @@ import CurrentEvents from './pages/CurrentEvents';
 import GeorgeProtests from './pages/GeorgeProtests';
 
 const AdvocacyApp = ({ match }) => {
+  console.log(match);
   var inner = <Home />;
+
   if (match.path.includes(":")) {
-    switch (match.url.replace(match.path.substring(0, match.path.indexOf(":")), "")) {
+    var endingPath = match.url.replace(match.path.substring(0, match.path.indexOf(":")), "");
+    console.log(endingPath);
+    switch (endingPath) {
       case "help":
         inner = <Help />;
         break;
@@ -57,7 +60,6 @@ const AdvocacyApp = ({ match }) => {
 
   return (
     <div className="advocacy-app">
-      <ChangeIcon props={icon}></ChangeIcon>
       <ScrollToTop />
       <Link className="home-button" to="/advocacy">Back to Home</Link>
       <div className="app">
