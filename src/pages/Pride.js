@@ -97,8 +97,9 @@ class Pride extends React.Component {
 
                     <h2>Sources for this section</h2>
                     <p className="citation">{text.pride[1]}</p>
-                    <p className="citation">{text.pride[2]}</p>
                     <p className="citation">{text.pride[3]}</p>
+                    <p className="citation">{text.pride[2]}</p>
+                    <p className="citation">{text.pride[29]}</p>
                     <div className="spacer"></div>
                     <Footer credit="Mercedes Mehling on Unsplash" link="https://unsplash.com/photos/7J7x8HLXQKA"></Footer>
                 </div>
