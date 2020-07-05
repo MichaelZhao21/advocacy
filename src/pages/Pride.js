@@ -35,16 +35,22 @@ class Pride extends React.Component {
                     <h1>Pride and Pridefall</h1>
                 </div>
                 <div className="container">
+                    <h2>What does LGBTQIA+ stand for?</h2>
+                    <div className="container">
+                        HI
+                    </div>
+
                     <h2>Pridefall</h2>
                     {this.state.hidden}
                     <p className="mid">More info on <a className="inline-link" href="https://twitter.com/koshersemite/status/1264996122067644416?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1264996122067644416&ref_url=https%3A%2F%2Fwww.pinknews.co.uk%2F2020%2F05%2F26%2F4chan-alt-right-operation-pridefall-pride-month-cyber-attack-starbucks-amazon-homophobia%2F">this twitter thread.</a></p>
 
-                    <h2>Activities of Operation Pridefall</h2>
+                    <h3>Activities of Operation Pridefall</h3>
                     <p className="p">{text.pride[0]}</p>
 
                     <h2>Sources for this section</h2>
                     <p className="citation">{text.pride[1]}</p>
                     <p className="citation">{text.pride[2]}</p>
+                    <p className="citation">{text.pride[4]}</p>
                     <div className="spacer"></div>
                     <Footer credit="Mercedes Mehling on Unsplash" link="https://unsplash.com/photos/7J7x8HLXQKA"></Footer>
                 </div>
