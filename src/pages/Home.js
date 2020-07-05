@@ -18,7 +18,6 @@ class Home extends React.Component {
                     <Quote />
                     <div className="spacer"></div>
                     <Link className="section-button" to="/help">How to Help</Link>
-                    <Link className="section-button" to="/current-events">Current Events</Link>
                     <Link className="section-button" to="/george-floyd-protests">George Floyd & Protests</Link>
                     <Link className="section-button" to="/black-rights">Black Rights</Link>
                     <Link className="section-button" to="/police-brutality">Police Brutality</Link>
