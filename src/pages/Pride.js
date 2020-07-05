@@ -14,18 +14,20 @@ class Pride extends React.Component {
                 <button className="section-button content-warning" onClick={this.showContent}>
                     Warning: Image Contains Strong Language and Threatening Messages (Click to Show)
                 </button>
-            ) 
+            )
         }
     }
 
     showContent = () => {
-        this.setState({hidden: (
-            <div>
-                <a href={pridefall}>
-                    <img className="doc-img drop-img pride-img" src={pridefall} alt="Operation Pridefall post on 4chan"></img>
-                </a>
-            </div>
-        )});
+        this.setState({
+            hidden: (
+                <div>
+                    <a href={pridefall}>
+                        <img className="doc-img drop-img pride-img" src={pridefall} alt="Operation Pridefall post on 4chan"></img>
+                    </a>
+                </div>
+            )
+        });
     }
 
     render() {
@@ -36,8 +38,54 @@ class Pride extends React.Component {
                 </div>
                 <div className="container">
                     <h2>What does LGBTQIA+ stand for?</h2>
-                    <div className="container">
-                        HI
+                    <p className="p">{text.pride[28]}</p>
+                    <div className="slide-group" style={{ backgroundColor: "#F00000" }}>
+                        <p className="slide-cover-text">{text.pride[4]}</p>
+                        <p className="slide-box-info">{text.pride[5]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#FF8000" }}>
+                        <p className="slide-cover-text">{text.pride[6]}</p>
+                        <p className="slide-box-info">{text.pride[7]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#FFFF00" }}>
+                        <p className="slide-cover-text">{text.pride[8]}</p>
+                        <p className="slide-box-info">{text.pride[9]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#3DC066" }}>
+                        <p className="slide-cover-text">{text.pride[10]}</p>
+                        <p className="slide-box-info">{text.pride[11]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#007940" }}>
+                        <p className="slide-cover-text">{text.pride[12]}</p>
+                        <p className="slide-box-info">{text.pride[13]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#4773E4" }}>
+                        <p className="slide-cover-text">{text.pride[14]}</p>
+                        <p className="slide-box-info">{text.pride[15]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#4040FF" }}>
+                        <p className="slide-cover-text">{text.pride[16]}</p>
+                        <p className="slide-box-info">{text.pride[17]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#FFD900" }}>
+                        <p className="slide-cover-text">{text.pride[18]}</p>
+                        <p className="slide-box-info">{text.pride[19]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#A5A5A5" }}>
+                        <p className="slide-cover-text">{text.pride[20]}</p>
+                        <p className="slide-box-info">{text.pride[21]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#A000C0" }}>
+                        <p className="slide-cover-text">{text.pride[22]}</p>
+                        <p className="slide-box-info">{text.pride[23]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#FF228C" }}>
+                        <p className="slide-cover-text">{text.pride[24]}</p>
+                        <p className="slide-box-info">{text.pride[25]}</p>
+                    </div>
+                    <div className="slide-group" style={{ backgroundColor: "#7E581C" }}>
+                        <p className="slide-cover-text">{text.pride[26]}</p>
+                        <p className="slide-box-info">{text.pride[27]}</p>
                     </div>
 
                     <h2>Pridefall</h2>
@@ -50,7 +98,7 @@ class Pride extends React.Component {
                     <h2>Sources for this section</h2>
                     <p className="citation">{text.pride[1]}</p>
                     <p className="citation">{text.pride[2]}</p>
-                    <p className="citation">{text.pride[4]}</p>
+                    <p className="citation">{text.pride[3]}</p>
                     <div className="spacer"></div>
                     <Footer credit="Mercedes Mehling on Unsplash" link="https://unsplash.com/photos/7J7x8HLXQKA"></Footer>
                 </div>
